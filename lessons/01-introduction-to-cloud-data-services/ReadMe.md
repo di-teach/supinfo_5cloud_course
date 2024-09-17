@@ -1,7 +1,6 @@
 # Introduction do cloud data services
 
-This hands-on session related to the lesson that you can find [here]() is about deploying
-and managing a data cluster on Azure HDInsight.
+Let's deploy and manage a data cluster on Azure HDInsight.
 
 ## Objective
 
