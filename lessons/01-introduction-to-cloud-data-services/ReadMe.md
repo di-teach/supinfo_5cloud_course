@@ -7,7 +7,7 @@ This exercise covers setting up the cluster, ingesting data, running a Spark job
 
 Deploy an **Apache Spark cluster** on **Azure HDInsight** and manage it to process a sample big data workload, followed by real-time scaling and monitoring.
 
-### Step-by-Step Guide
+### Step-by-step guide
 
 ---
 
@@ -36,11 +36,11 @@ Deploy an **Apache Spark cluster** on **Azure HDInsight** and manage it to proce
   - **Review + Create**:
     - Review the configuration and click **Create** to deploy the cluster. It may take several minutes for the cluster to be provisioned.
 
-**Expected Result**: A fully provisioned Apache Spark cluster ready for data ingestion and processing.
+**Expected result**: A fully provisioned Apache Spark cluster ready for data ingestion and processing.
 
 ---
 
-### **Step 2: Upload Paris 2024 Data to Azure Storage**
+### **Step 2: Upload Paris 2024 data to Azure Storage**
 
 **Objective**: Upload a sample dataset (e.g., a CSV file) related to the **Paris 2024 Olympic Games** to **Azure Blob Storage** to use with the Apache Spark cluster.
 
@@ -53,7 +53,7 @@ Deploy an **Apache Spark cluster** on **Azure HDInsight** and manage it to proce
   - In the storage account, go to **Containers** and select a container (or create a new one).
   - Click **Upload** to add your data files (e.g., a CSV file from the Paris 2024 dataset).
 
-**Expected Result**: Your data (e.g., a CSV file from the Paris 2024 dataset) is now uploaded to **Azure Blob Storage** and ready for processing by the Spark cluster.
+**Expected result**: Your data (e.g., a CSV file from the Paris 2024 dataset) is now uploaded to **Azure Blob Storage** and ready for processing by the Spark cluster.
 
 ---
 
@@ -61,7 +61,7 @@ Deploy an **Apache Spark cluster** on **Azure HDInsight** and manage it to proce
 
 **Objective**: Submit and run a **PySpark job** to process the uploaded Paris 2024 data on the Spark cluster.
 
-- **Access the Cluster**:
+- **Access the cluster**:
   - In the **Azure portal**, navigate to your HDInsight cluster and select **Cluster Dashboard**.
 - **Submit a Spark Job**:
   - Use either **Jupyter Notebook** or **SSH** into the cluster to submit a **Spark job**.
@@ -77,10 +77,10 @@ Deploy an **Apache Spark cluster** on **Azure HDInsight** and manage it to proce
     df_filtered = df.filter(df['_c0'] > 100)  # Example filtering
     df_filtered.show()
     ```
-- **Monitor the Job**:
+- **Monitor the job**:
   - Monitor job progress via the **Apache Ambari** dashboard, accessible through the cluster's dashboard link in the Azure portal.
 
-**Expected Result**: The Spark job processes the Paris 2024 data, performing transformations such as filtering or aggregating the event or participant data.
+**Expected result**: The Spark job processes the Paris 2024 data, performing transformations such as filtering or aggregating the event or participant data.
 
 ---
 
@@ -98,7 +98,7 @@ Deploy an **Apache Spark cluster** on **Azure HDInsight** and manage it to proce
     - **Azure Active Directory (AAD)** integration for access management.
     - **Role-based access control (RBAC)** to restrict permissions based on user roles.
 
-**Expected Result**: The cluster is securely managed and can scale efficiently based on workload demands.
+**Expected result**: The cluster is securely managed and can scale efficiently based on workload demands.
 
 ---
 
