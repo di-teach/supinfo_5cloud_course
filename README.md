@@ -33,8 +33,6 @@ If you are using Windows, you can use the Git Bash terminal that comes with Git.
 
 You will use **Python** for data processing and scripting within this module. Follow these steps to install Python:
 
-### Python Installation
-
 1. **Check if Python is installed**:
 Run the following command to check if Python is installed:
 ```bash
