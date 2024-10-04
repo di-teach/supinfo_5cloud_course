@@ -61,7 +61,8 @@ Make sure to choose a source that updates frequently so you can simulate real-ti
 
 ### Step 2: Setting up the data ingestion pipeline
 
-#### If you have credits for Azure services, you can proceed with the following steps.
+> [!IMPORTANT]
+> If you have credits for Azure services, you can proceed with the following steps.
 
 You will use **Azure Data Factory** to ingest the selected data. Data Factory allows you to automate the extraction of data from various sources, including REST APIs, blob storage, or databases.
 
@@ -77,7 +78,8 @@ You will use **Azure Data Factory** to ingest the selected data. Data Factory al
 
 **Output**: A fully operational data ingestion pipeline that collects data from the chosen source in real-time and stores it in a cloud-based data store.
 
-####  Otherwise, you can simulate the data ingestion and processing locally.
+> [!IMPORTANT]
+> Otherwise, you can simulate the data ingestion and processing locally.
 
 Instead of using Azure Data Factory, students can set up a data ingestion pipeline locally using Python and Apache Airflow for orchestration.
 
@@ -121,7 +123,8 @@ fetch_data_task = PythonOperator(
 
 ### Step 3: Real-time data processing with Synapse Analytics (Use Python)
 
-#### If you have credits for Azure services, you can proceed with the following steps.
+> [!IMPORTANT]
+> If you have credits for Azure services, you can proceed with the following steps.
 
 Now that you have the data, the next step is to process it in real-time using **Azure Synapse Analytics**. You will use **Python** for data transformations or analytics within Synapse.
 
@@ -152,7 +155,8 @@ Now that you have the data, the next step is to process it in real-time using **
 
 **Output**: Real-time data processing pipeline using Python within Synapse Analytics that transforms raw data into meaningful insights, ready for visualization.
 
-####  Otherwise, you can process data locally using Pandas
+> [!IMPORTANT]
+> Otherwise, you can process data locally using Pandas
 
 Now that you have the data, the next step is to process them locally using Python with the [Pandas](https://pandas.pydata.org/) library.
 
@@ -181,7 +185,8 @@ df_cleaned.to_csv('/path/to/cleaned_data.csv', index=False)
 
 ### Step 4: Visualizing data with Power BI
 
-#### If you have credits for Azure services, you can proceed with the following steps.
+> [!IMPORTANT]
+> If you have credits for Azure services, you can proceed with the following steps.
 
 Once the data is processed, it's time to create an **interactive dashboard** using **Power BI**.
 
@@ -197,7 +202,8 @@ Once the data is processed, it's time to create an **interactive dashboard** usi
 
 **Output**: A live, interactive Power BI dashboard that showcases real-time insights based on the ingested and processed data.
 
-####  Otherwise, you can visualizing data locally with Tableau public or jupyter notebooks
+> [!IMPORTANT]
+> Otherwise, you can visualizing data locally with Tableau public or jupyter notebooks
 
 Instead of Power BI, we'll use [Tableau Public](https://public.tableau.com/app/discover) or [Jupyter Notebooks](https://jupyter.org/) for visualization.
 
